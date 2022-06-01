@@ -1,0 +1,2 @@
+"name";"code";"installOrder";"description";"imagePath";"modules";"dependsOn";"sequence"
+"Angular";"angular";37;"Axelor Angular Demo App";"";"axelor-demo-angular";"base";37

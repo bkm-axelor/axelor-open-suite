@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<object-views xmlns="http://axelor.com/xml/ns/object-views"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://axelor.com/xml/ns/object-views http://axelor.com/xml/ns/object-views/object-views_5.4.xsd">
+
+  <menuitem name="app-angular-root" title="Angular Demo App" order="10"
+    icon="fa-pencil-square-o" icon-background="blue"/>
+
+  <menuitem name="app-demo-angular" title="Angular Demo" parent="app-angular-root"
+    action="action.angular.view" order="18"/>
+
+  <action-view name="action.angular.view" title="Angular Demo">
+    <view type="html" name="angular/my-first-project"/>
+  </action-view>
+
+</object-views>

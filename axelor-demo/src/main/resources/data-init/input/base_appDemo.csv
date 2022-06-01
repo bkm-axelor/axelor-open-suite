@@ -1,0 +1,2 @@
+"name";"code";"installOrder";"description";"imagePath";"modules";"dependsOn";"sequence"
+"Demo";"demo";36;"Axelor Demo App";"";"axelor-demo";"base";36
