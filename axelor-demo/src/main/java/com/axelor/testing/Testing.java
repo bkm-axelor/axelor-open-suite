@@ -4,9 +4,10 @@ public class Testing {
 
   public static void main(String[] args) {
 
-    int a[] = {1, 2, 3, 4, 5, 7, 9, 10, 12, 13, 14, 16, 19};
-    findMissingElement(a);
-
+    //    int a[] = {1, 2, 3, 4, 5, 7, 9, 10, 12, 13, 14, 16, 19};
+    //    findMissingElement(a);
+    double min = Math.min(-2.0, -3.0);
+    System.out.print(min);
   }
 
   public static void findMissingElement(int[] a) {
@@ -19,7 +20,5 @@ public class Testing {
         }
       }
     }
-
   }
-
 }

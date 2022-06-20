@@ -7,11 +7,11 @@ class CustomAnnotation {
   @MyAnnotation(value = 25)
   public static void myMethod() {
     CustomAnnotation obj = new CustomAnnotation();
-    
-//    ArrayList<String> newArrayList = Lists.newArrayList("Bikash", "Akash", "Hello");
-    
-//    Splitter.onPattern(".|,").omitEmptyStrings().splitToList(null);
-    
+
+    //    ArrayList<String> newArrayList = Lists.newArrayList("Bikash", "Akash", "Hello");
+
+    //    Splitter.onPattern(".|,").omitEmptyStrings().splitToList(null);
+
     try {
       Method method = obj.getClass().getMethod("myMethod");
       MyAnnotation annotation = method.getAnnotation(MyAnnotation.class);

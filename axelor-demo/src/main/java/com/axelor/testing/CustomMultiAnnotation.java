@@ -23,5 +23,4 @@ public class CustomMultiAnnotation {
   public static void main(String args[]) {
     myMethod();
   }
-
 }
